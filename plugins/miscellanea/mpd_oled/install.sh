@@ -15,9 +15,9 @@ then
   sudo apt-get -y install git-core autoconf make libtool libfftw3-dev libasound2-dev
   git clone https://github.com/karlstav/cava
   cd cava
-  ./autogen.sh
-  ./configure
-  make
+  sudo ./autogen.sh
+  sudo ./configure
+  sudo make
   sudo make install
   cd ..
 else
