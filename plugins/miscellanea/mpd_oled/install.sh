@@ -7,9 +7,6 @@ cd /home/volumio/
 echo "Updating packages"
 sudo apt-get update
 
-## Install i2c-tools for i2c device scanning
-sudo apt-get install -y i2c-tools
-
 ##############################
 # install CAVA if not present
 if [ ! -d "/home/volumio/cava" ]
