@@ -104,6 +104,7 @@ sudo dpkg-reconfigure tzdata
 * Spanish (es)
 * German (de)
 * Italian (it)
+* Dutch (nl)
 
 
 ## Last changes
@@ -164,6 +165,8 @@ sudo dpkg-reconfigure tzdata
 - German translation by Josef and Judydudi.
 
 - Italian translation by Pasquale D'Orsi.
+
+- Dutch translation by Bart.
 
 - C.A.V.A. is a bar spectrum audio visualizer: <https://github.com/karlstav/cava>
 
