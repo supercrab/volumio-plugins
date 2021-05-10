@@ -88,6 +88,7 @@ volumio plugin refresh && volumio vrestart
 cd ..
 rm -Rf mop
 rm -Rf mpd_oled.zip
+sudo dpkg-reconfigure tzdata
 ```
 
 ## Tested on
