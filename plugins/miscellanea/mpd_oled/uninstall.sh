@@ -87,6 +87,9 @@ then
 	rm -r /home/volumio/mpd_oled
 fi
 
+# Remove any binaries
+sudo apt remove mpd-oled
+
 echo "Done!"
 
 # required to end uninstallation
